@@ -1,0 +1,188 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+/*Рисайз бокового меню*/
+@media only screen and (max-width : 1525px) {
+	.slide-menu {
+		max-width: 210px
+	}
+	.slide-menu > ul {
+		margin: 15px;
+	}
+	.slide-menu > ul li {
+		font-size: 18px;
+	}
+	.slide-menu > ul li a span {
+		font-size: 28px;
+		line-height: 28px;
+	}
+	.menu-active .content-body .menu-trigger {
+		left: 125px;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.blog-cov .blog-top-mnu {
+		width: 940px;
+	}
+	.blog-cov .blog-top-mnu nav a {
+		font-size: 1.5em;
+	}
+	.content-body div.menu-trigger {
+		width: 34px;
+		height: 34px;
+	}
+	.menu-active .content-body .menu-trigger {
+		left: 155px;
+	}
+	#nav-icon3 {
+	top: 0px;
+	}
+	#nav-icon3 span {
+		width: 24px;
+	}
+	#nav-icon3 span:nth-child(1) {
+		top: 4px;
+	}
+	#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+		top: 14px;
+	}
+	#nav-icon3 span:nth-child(4) {
+		top: 24px;
+	}
+
+	section .blog-body .grid-item .text-block {
+		font-size: 12px;
+	}
+
+	section .blog-body .grid-item .news-bottom a:nth-child(2) i{
+		display: none;
+	}
+
+	section .blog-body .grid-item .news-bottom a:first-child {
+		margin-right: 5px;
+	}
+
+	section .blog-body .grid-item .news-bottom a:last-child {
+		margin-top: 3px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .header-top .top-line{
+		padding: 150px 0 50px;
+	}
+	.blog-cov .blog-top-mnu {
+		width: 720px;
+	}
+	section .blog-top-mnu nav a {
+		margin: 5px 14px 7px 14px;
+	}
+
+	header .header-top .top-line svg {
+		margin-top: -140px;
+		height: 100px;
+	}
+
+	header .header-top .top-line .logo-txt a {
+		white-space: normal;
+	}
+
+	section .blog-body .grid-item .text-block p {
+		display: none; 
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	header .header-top .top-line .logo-txt a {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	
+	.blog-cov .blog-top-mnu {
+		width: 100%;
+	}
+
+	.blog-cov .blog-top-mnu span{
+		display: none;
+	}
+	
+	section .blog-body .grid-item .news-bottom a:nth-child(2){
+		display: none;
+	}
+
+	section .blog-body .grid-item .news-bottom a:first-child {
+		display: none;
+	}
+
+	section .blog-body .grid-item .news-bottom a:last-child {
+		margin-bottom: 3px;
+	}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	header .header-top .top-line svg {
+		margin-top: -162px;
+		height: 100px;
+		
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ConstantineRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ConstantineRegular/ConstantineRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ConstantineRegular/ConstantineRegular.woff") format("woff"), url("../fonts/ConstantineRegular/ConstantineRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "LiberationSerifRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/LiberationSerifRegular/LiberationSerifRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/LiberationSerifRegular/LiberationSerifRegular.woff") format("woff"), url("../fonts/LiberationSerifRegular/LiberationSerifRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BebasRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasRegular/BebasRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasRegular/BebasRegular.woff") format("woff"), url("../fonts/BebasRegular/BebasRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BebasBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/BebasBold/BebasBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasBold/BebasBold.woff") format("woff"), url("../fonts/BebasBold/BebasBold.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=fonts.css.map */
